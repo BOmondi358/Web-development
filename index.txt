@@ -3,35 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment on Advanced HTML5 Elements</title>
+    <title>Advanced HTML5 Elements</title>
 </head>
 <body>
     <!-- Header Section -->
     <header>
-        <h1>Advanced HTML5 Elements</h1>
+        <h1>Welcome to My Webpage</h1>
     </header>
     
     <!-- Ordered List with Roman Numerals -->
     <section>
-        <h2>Programming Languages</h2>
+        <h2>Ordered List</h2>
         <ol type="I">
-            <li>Python</li>
-            <li>Javascript</li>
-            <li>Java</li>
-            <li>C++</li>
-            <li>Ruby</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
         </ol>
     </section>
     
     <!-- External Image -->
     <section>
-        <h2>Tokyo Image</h2>
-        <img src="https://images.pexels.com/photos/31001132/pexels-photo-31001132/free-photo-of-vibrant-shinjuku-street-at-night-in-tokyo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sample Image from Pexels" width="400">
+        <h2>External Image</h2>
+        <img src="https://www.pexels.com/photo/sample-image" alt="Sample Image from Pexels" width="400">
     </section>
     
     <!-- Contacts Table -->
     <section>
-        <h2>Celebrity Contacts</h2>
+        <h2>Contacts</h2>
         <table border="1">
             <tr>
                 <th>Name</th>
@@ -40,41 +40,41 @@
                 <th>Email</th>
             </tr>
             <tr>
-                <td>Michael Jackson</td>
-                <td>54th Main St</td>
+                <td>John Doe</td>
+                <td>123 Main St</td>
                 <td>+1234567890</td>
-                <td>mj@hotmail.com</td>
+                <td>john@example.com</td>
             </tr>
             <tr>
-                <td>Jeniffer Lopez</td>
+                <td>Jane Smith</td>
                 <td>456 Elm St</td>
                 <td>+1987654321</td>
-                <td>jlopez@yahoo.com</td>
+                <td>jane@example.com</td>
             </tr>
             <tr>
-                <td>Michael B. Jordan</td>
+                <td>Michael Johnson</td>
                 <td>789 Pine St</td>
                 <td>+1122334455</td>
-                <td>jb.michael@gmail.com</td>
+                <td>michael@example.com</td>
             </tr>
             <tr>
-                <td>Chris Brown</td>
+                <td>Sarah Brown</td>
                 <td>101 Maple St</td>
                 <td>+1223344556</td>
-                <td>cbrown@gmail.com</td>
+                <td>sarah@example.com</td>
             </tr>
             <tr>
-                <td>Lil Wayne</td>
+                <td>David Wilson</td>
                 <td>202 Oak St</td>
                 <td>+1334455667</td>
-                <td>liwayne@outlook.com</td>
+                <td>david@example.com</td>
             </tr>
         </table>
     </section>
     
     <!-- Registration Form -->
     <section>
-        <h2>Concert Registration Form</h2>
+        <h2>Registration Form</h2>
         <form>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
@@ -97,18 +97,18 @@
             <label for="country">Country:</label>
             <select id="country" name="country" required>
                 <option value="">Select a country</option>
-                <option value="Kenya">Kenya</option>
-                <option value="Nigeria">Nigeria</option>
-                <option value="Tanzania">Tanzania</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="canada">Canada</option>
             </select><br><br>
             
-            <label>Hobbies:</label>
-            <input type="checkbox" id="Swimming" name="interests" value="Swimming">
-            <label for="Swimming">Swimming</label>
-            <input type="checkbox" id="Cooking" name="interests" value="Cooking">
-            <label for="Cooking">Cooking</label>
-            <input type="checkbox" id="Playing Video Games" name="interests" value="Playing Video Games">
-            <label for="Playing Video Games">Playing Video Games</label><br><br>
+            <label>Interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label><br><br>
             
             <button type="submit">Register</button>
         </form>
